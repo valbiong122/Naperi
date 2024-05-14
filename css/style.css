@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+   text-decoration: none;
+}
+
+.container {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   padding-bottom: 60px;
+   background-color: #f0f0f0; /* Updated background color */
+}
+
+.container .content {
+   text-align: center;
+}
+
+.container .content h3 {
+   font-size: 30px;
+   color: #555; /* Adjusted text color */
+}
+
+.container .content h3 span {
+   background: #ff5a5f; /* Updated background color */
+   color: #fff;
+   border-radius: 5px;
+   padding: 0 15px;
+}
+
+.container .content h1 {
+   font-size: 50px;
+   color: #555; /* Adjusted text color */
+}
+
+.container .content h1 span {
+   color: #ff5a5f; /* Updated text color */
+}
+
+.container .content p {
+   font-size: 22px; /* Adjusted font size */
+   margin-bottom: 20px;
+   color: #666; /* Adjusted text color */
+}
+
+.container .content .btn {
+   display: inline-block;
+   padding: 12px 30px; /* Adjusted padding */
+   font-size: 18px; /* Adjusted font size */
+   background: #555; /* Adjusted background color */
+   color: #fff;
+   margin: 0 5px;
+   text-transform: capitalize;
+   border-radius: 3px; /* Rounded corners */
+}
+
+.container .content .btn:hover {
+   background: #ff5a5f; /* Updated background color on hover */
+}
+
+.form-container {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   padding-bottom: 60px;
+   background: #f0f0f0; /* Updated background color */
+}
+
+.form-container form {
+   padding: 20px;
+   border-radius: 8px; /* Rounded corners */
+   box-shadow: 0 5px 15px rgba(0, 0, 0, .1); /* Adjusted box shadow */
+   background: #fff;
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form h3 {
+   font-size: 28px; /* Adjusted font size */
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color: #555; /* Adjusted text color */
+}
+
+.form-container form input,
+.form-container form select {
+   width: 100%;
+   padding: 12px 15px; /* Adjusted padding */
+   font-size: 16px; /* Adjusted font size */
+   margin: 8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form select option {
+   background: #fff;
+}
+
+.form-container form .form-btn {
+   background: #ff5a5f; /* Updated background color */
+   color: #fff;
+   text-transform: capitalize;
+   font-size: 18px; /* Adjusted font size */
+   cursor: pointer;
+   border-radius: 3px; /* Rounded corners */
+}
+
+.form-container form .form-btn:hover {
+   background: #555; /* Updated background color on hover */
+}
+
+.form-container form p {
+   margin-top: 10px;
+   font-size: 18px; /* Adjusted font size */
+   color: #555; /* Adjusted text color */
+}
+
+.form-container form p a {
+   color: #ff5a5f; /* Updated link color */
+}
+
+.form-container form .error-msg {
+   margin: 10px 0;
+   display: block;
+   background: #ff5a5f; /* Updated background color */
+   color: #fff;
+   border-radius: 5px;
+   font-size: 18px; /* Adjusted font size */
+   padding: 10px;
+}
